@@ -1,46 +1,37 @@
-# Delphi-Projects-Template
+# Duck Journey Animation - Gaming for Sidaction 2021
 
 [Cette page en français.](LISEZMOI.md)
 
-**A git repository template for my Delphi (or other) projects.**
+For [Sidaction 2021](https://www.sidaction.org/), I took part in the [Gaming For Sidaction](https://serialstreameur.fr/sidaction-2021.php) fund-raising operation organized by the [Choeur de Gamers](https://choeurdegamers.fr) association on [Twitch](https://www.twitch.tv/patrickpremartin). My weekend was devoted to coding video games and demos around video game development in Pascal under Delphi.
 
-**This template is distributed under the MIT license. The AGPL license is for the projects I create from this code repository template. Use whatever license you want if you use this template.**
+In this repository you'll find the source code for [a little cartoon](https://serialstreameur.fr/promenade-d-un-canard-animation-faite-avec-delphi.html): a duck walking on the water of a river in the English countryside. I created it to show how to animate on-screen elements with a minimum of coding, using FireMonkey components. As we'd already played with a duck image for the rest of the weekend, I stuck with it.
+
+Other projects that may be of interest to you also got underway over the weekend: [Delphi FMX Game Snippets](https://fmxgamesnippets.developpeur-pascal.fr) and the video game [Ok Ducky!](https://okducky.gamolf.fr).
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
 ## Talks and conferences
 
-### XXX 2024
+### Gaming for Sidaction 2021
 
-* [talk title](talk URL) (in English)
-* [talk title](talk URL) (in French)
+* [Promenade d'un canard (animation faite avec Delphi)](https://serialstreameur.fr/promenade-d-un-canard-animation-faite-avec-delphi.html)
+* [Codage d'une cinématique avec Delphi dans le cadre du Sidaction 2021](https://serialstreameur.fr/codage-d-une-cinematique-avec-delphi-dans-le-cadre-du-sidaction-2021.html) (in French)
 
 ### Twitch
 
 Follow my development streams of software, video games, mobile applications and websites on [my Twitch channel](https://www.twitch.tv/patrickpremartin) or as replays on [Serial Streameur](https://serialstreameur.fr) mostly in French.
 
-## Using this software
-
-This software is available in a directly installable or executable production version. It is distributed as shareware.
-
-You can download and redistribute it free of charge, provided you do not modify its content (installer, program, additional files, etc.).
-
-[Download program or installer](DDD) (WIP)
-
-If you use this software regularly and are satisfied with it, you are invited to purchase an end-user license. Purchasing a license will give you access to software updates, as well as enabling optional features.
-
-[Buy a license](FFF) (WIP)
-
-You can also [visit the software website](EEE) to find out more about how it works, access videos and articles, find out about the different versions available and their features, contact user support...
-
 ## Source code installation
 
-To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/Duck-Animation-Sidaction2021).
 
-This project uses dependencies in the form of sub-modules. They will be absent from the ZIP file. You'll have to download them by hand.
+## Images utilisées
 
-* [YYY](ZZZ) must be installed in the ./lib-externes/YYY subfolder.
-* [YYY](ZZZ) must be installed in the ./lib-externes/YYY subfolder.
+* [London map](https://stock.adobe.com/fr/images/urban-city-map-of-london-england/127833371) (scene 1 background) - (c) Ink drop / Adobe Stock
+* [The river](https://stock.adobe.com/fr/images/fresh-water-stream-in-a-hilly-country/30283106) (scene 2 background) - (c) Neilras / Adobe Stock
+* [The pond](https://stock.adobe.com/fr/images/a-pond-ecosytem/57778204) (scene 3 background) - (c) Bluering Media / Adobe Stock
+* [Duck](https://kenney.nl/assets/shooting-gallery) - (c) Kenney
+* [Animated vortex](https://cartoonsmart.com/hud-elements-fx-vol-02/) - (c) Cartoon Smart
 
 ## Compatibility
 
@@ -50,7 +41,7 @@ Normally, my libraries and components should also run on at least the current ve
 
 There's no guarantee of compatibility with earlier versions, even though I try to keep my code clean and avoid using too many of the new ways of writing in it (type inference, inline var and multiline strings).
 
-If you detect any anomalies on earlier versions, please don't hesitate to [report them](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues) so that I can test and try to correct or provide a workaround.
+If you detect any anomalies on earlier versions, please don't hesitate to [report them](https://github.com/DeveloppeurPascal/Duck-Animation-Sidaction2021/issues) so that I can test and try to correct or provide a workaround.
 
 ## License to use this code repository and its contents
 
@@ -69,7 +60,7 @@ Certain elements included in this repository may be subject to third-party usage
 
 ## How to ask a new feature, report a bug or a security issue ?
 
-If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX) and [open a new issue](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/Duck-Animation-Sidaction2021) and [open a new issue](https://github.com/DeveloppeurPascal/Duck-Animation-Sidaction2021/issues).
 
 If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 

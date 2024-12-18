@@ -1,46 +1,37 @@
-# Delphi-Projects-Template
+# Animation de la promenade d'un canard - Gaming for Sidaction 2021
 
 [This page in English.](README.md)
 
-**Un modèle de dépôt git pour mes projets Delphi (ou autres).**
+A l'occasion du [Sidaction 2021](https://www.sidaction.org/) j'ai participé à l'opération de collecte de dons intitulée [Gaming For Sidaction](https://serialstreameur.fr/sidaction-2021.php) organisée par l'association [Choeur de Gamers](https://choeurdegamers.fr) sur [Twitch](https://www.twitch.tv/patrickpremartin). Mon week-end a été consacré à du codage de jeux vidéos et de démos autour du développement de jeux vidéo en Pascal sous Delphi.
 
-**Ce template est distribué sous licence MIT. La licence AGPL est pour les projets que je crée à partir de ce template de dépôt de code. Utilisez la licence que vous voulez si vous utilisez ce template.**
+Dans ce dépôt vous trouverez les codes sources d'[un petit dessin animé](https://serialstreameur.fr/promenade-d-un-canard-animation-faite-avec-delphi.html) : un canard promenant sur l'eau d'une rivière dans la campagne anglaise. Je l'ai créé pour montrer comment animer des éléments à l'écran en codant un minimum de choses à l'aide de composants FireMonkey. Comme nous avions déjà joué avec une image de canard le reste du week-end je suis resté sur cette lancée.
+
+D'autres projets susceptibles de vous intéresser ont aussi démarré lors de ce week-end : [Delphi FMX Game Snippets](https://fmxgamesnippets.developpeur-pascal.fr) et le jeu vidéo [Ok Ducky!](https://okducky.gamolf.fr).
 
 Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
 
 ## Présentations et conférences
 
-### XXX 2024
+### Gaming for Sidaction 2021
 
-* [talk title](talk url) (en anglais)
-* [talk title](talk url) (en français)
+* [Promenade d'un canard (animation faite avec Delphi)](https://serialstreameur.fr/promenade-d-un-canard-animation-faite-avec-delphi.html)
+* [Codage d'une cinématique avec Delphi dans le cadre du Sidaction 2021](https://serialstreameur.fr/codage-d-une-cinematique-avec-delphi-dans-le-cadre-du-sidaction-2021.html) (en français)
 
 ### Twitch
 
 Suivez mes streams de développement de logiciels, jeux vidéo, applications mobiles et sites web sur [ma chaîne Twitch](https://www.twitch.tv/patrickpremartin) ou en rediffusion sur [Serial Streameur](https://serialstreameur.fr) la plupart du temps en français.
 
-## Utiliser ce logiciel
-
-Ce logiciel est disponible dans une version de production directement installable ou exécutable. Il est distribué en shareware.
-
-Vous pouvez le télécharger et le rediffuser gratuitement à condition de ne pas en modifier le contenu (installeur, programme, fichiers annexes, ...).
-
-[Télécharger le programme ou son installeur](DDD) (WIP)
-
-Si vous utilisez régulièrement ce logiciel et en êtes satisfait vous êtes invité à en acheter une licence d'utilisateur final. L'achat d'une licence vous donnera accès aux mises à jour du logiciel en plus d'activer d'évenuelles fonctionnalités optionnelles.
-
-[Acheter une licence](FFF) (WIP)
-
-Vous pouvez aussi [consulter le site du logiciel](EEE) pour en savoir plus sur son fonctionnement, accéder à des vidéos et articles, connaître les différentes versions disponibles et leurs fonctionnalités, contacter le support utilisateurs...
-
 ## Installation des codes sources
 
-Pour télécharger ce dépôt de code il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+Pour télécharger ce dépôt de code il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/Duck-Animation-Sidaction2021).
 
-Ce projet utilise des dépendances sous forme de sous modules. Ils seront absents du fichier ZIP. Vous devrez les télécharger à la main.
+## Images utilisées
 
-* [YYY](ZZZ) doit être installé dans le sous dossier ./lib-externes/YYY
-* [YYY](ZZZ) doit être installé dans le sous dossier ./lib-externes/YYY
+* [Carte de Londres](https://stock.adobe.com/fr/images/urban-city-map-of-london-england/127833371) (scene 1 background) - (c) Ink drop / Adobe Stock
+* [La rivière](https://stock.adobe.com/fr/images/fresh-water-stream-in-a-hilly-country/30283106) (scene 2 background) - (c) Neilras / Adobe Stock
+* [L'étang](https://stock.adobe.com/fr/images/a-pond-ecosytem/57778204) (scene 3 background) - (c) Bluering Media / Adobe Stock
+* [Canard](https://kenney.nl/assets/shooting-gallery) - (c) Kenney
+* [Tourbillon animé](https://cartoonsmart.com/hud-elements-fx-vol-02/) - (c) Cartoon Smart
 
 ## Compatibilité
 
@@ -50,7 +41,7 @@ Normalement mes librairies et composants doivent aussi fonctionner au moins sur 
 
 Aucune garantie de compatibilité avec des versions antérieures n'est fournie même si je m'efforce de faire du code propre et ne pas trop utiliser les nouvelles façons d'écrire dedans (type inference, inline var et multilines strings).
 
-Si vous détectez des anomalies sur des versions antérieures n'hésitez pas à [les rapporter](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues) pour que je teste et tente de corriger ou fournir un contournement.
+Si vous détectez des anomalies sur des versions antérieures n'hésitez pas à [les rapporter](https://github.com/DeveloppeurPascal/Duck-Animation-Sidaction2021/issues) pour que je teste et tente de corriger ou fournir un contournement.
 
 ## Licence d'utilisation de ce dépôt de code et de son contenu
 
@@ -69,7 +60,7 @@ Certains éléments inclus dans ce dépôt peuvent dépendre de droits d'utilisa
 
 ## Comment demander une nouvelle fonctionnalité, signaler un bogue ou une faille de sécurité ?
 
-Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX) et [d'ouvrir un ticket](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://github.com/DeveloppeurPascal/Duck-Animation-Sidaction2021) et [d'ouvrir un ticket](https://github.com/DeveloppeurPascal/Duck-Animation-Sidaction2021/issues).
 
 Si vous avez trouvé une faille de sécurité n'en parlez pas en public avant qu'un correctif n'ait été déployé ou soit disponible. [Contactez l'auteur du dépôt en privé](https://developpeur-pascal.fr/nous-contacter.php) pour expliquer votre trouvaille.
 
